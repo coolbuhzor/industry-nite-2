@@ -18,7 +18,7 @@ export default function Home() {
     <main className={`${styles.main} w-full justify-center`}>
       {/* hero section */}
       <div className="h-[calc(100vh-150px)] flex items-center w-full pl-[100px]">
-        <div className="flex flex-1 flex-col border border-int-red">
+        <div className="flex flex-1 flex-col">
           {/* <div> */}
           <p className=" text-white font-semibold text-[50px] font-bartina">
             Join Nigeria&lsquo;s Thriving Music Community with Industry Nite
