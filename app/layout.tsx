@@ -41,7 +41,7 @@ const Oddval = localFont({
       style: "normal",
     },
     {
-      path: "./fonts/Oddval-light.ttf",
+      path: "./fonts/Oddval-Light.ttf",
       weight: "400",
       style: "normal",
     },
