@@ -48,6 +48,67 @@ const Oddval = localFont({
   ],
   variable: "--font-Oddval",
 });
+const Satoshi = localFont({
+  src: [
+    {
+      path: "./fonts/Satoshi-Black.otf",
+      weight: "900",
+      style: "normal",
+    },
+
+    {
+      path: "./fonts/Satoshi-bold.otf",
+      weight: "700",
+      style: "normal",
+    },
+    {
+      path: "./fonts/Satoshi-Medium.otf",
+      weight: "500",
+      style: "normal",
+    },
+    {
+      path: "./fonts/Satoshi-Regular.otf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "./fonts/Satoshi-Light.otf",
+      weight: "400",
+      style: "normal",
+    },
+  ],
+  variable: "--font-Satoshi",
+});
+const bartina = localFont({
+  src: [
+    {
+      path: "./fonts/bartina-bold.ttf",
+      weight: "700",
+      style: "normal",
+    },
+    {
+      path: "./fonts/bartina-Semibold.ttf",
+      weight: "600",
+      style: "normal",
+    },
+    {
+      path: "./fonts/bartina-regular.ttf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "./fonts/bartina-light.ttf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "./fonts/bartina-thin.ttf",
+      weight: "100",
+      style: "normal",
+    },
+  ],
+  variable: "--font-bartina",
+});
 
 export default function RootLayout({
   children,
@@ -55,9 +116,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={Oddval.variable}>
-      <body className="">
-        <header className="w-full flex pt-[53px] justify-between items-center px-[122px] bg-[linear-gradient(221.81deg,#1C1F33_15.38%,#0A0B15_84.11%)]">
+    <html
+      lang="en"
+      className={`${Oddval.variable} ${Satoshi.variable} ${bartina.variable}`}
+    >
+      <body className="bg-[linear-gradient(221.81deg,#1C1F33_15.38%,#0A0B15_84.11%)]">
+        <header className="w-full flex pt-[53px] justify-between items-center px-[122px] ">
           <Image src={logo} alt={"logo"} />
           <div className="flex items-center gap-6">
             <Link href={"#"} className="text-int-red text-[20px]">
@@ -85,6 +149,7 @@ export default function RootLayout({
         </header>
 
         {children}
+        <footer className="bg-[linear-gradient(221.81deg,#1C1F33_15.38%,#0A0B15_84.11%)]"></footer>
       </body>
     </html>
   );

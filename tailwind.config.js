@@ -12,6 +12,8 @@ module.exports = {
     extend: {
       fontFamily: {
         oddVal: ["var(--font-Oddval)"],
+        satoshi: ["var(--font-Satoshi)"],
+        bartina: ["var(--font-bartina)"],
       },
       colors: {
         "int-red": "#FF220C",
