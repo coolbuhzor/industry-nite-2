@@ -21,7 +21,7 @@ const Oddval = localFont({
       style: "normal",
     },
     {
-      path: "./fonts/Oddval-bold.ttf",
+      path: "./fonts/Oddval-Bold.ttf",
       weight: "700",
       style: "normal",
     },
@@ -57,7 +57,7 @@ const Satoshi = localFont({
     },
 
     {
-      path: "./fonts/Satoshi-bold.otf",
+      path: "./fonts/Satoshi-Bold.otf",
       weight: "700",
       style: "normal",
     },
@@ -87,7 +87,7 @@ const bartina = localFont({
       style: "normal",
     },
     {
-      path: "./fonts/bartina-Semibold.ttf",
+      path: "./fonts/bartina-semibold.ttf",
       weight: "600",
       style: "normal",
     },
