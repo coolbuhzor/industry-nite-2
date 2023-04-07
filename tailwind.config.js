@@ -14,6 +14,7 @@ module.exports = {
         oddVal: ["var(--font-Oddval)"],
         satoshi: ["var(--font-Satoshi)"],
         bartina: ["var(--font-bartina)"],
+        inter: ["var(--font-inter)"],
       },
       colors: {
         "int-red": "#FF220C",
