@@ -91,7 +91,7 @@ const Artiste = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-wrap gap-10 border justify-between mt-[50px]">
+          <div className="flex flex-wrap gap-10 justify-between mt-[50px]">
             <div className="w-full max-w-[362px] pb-3 bg-[#1C1F33]">
               <Image
                 src={frame1}
